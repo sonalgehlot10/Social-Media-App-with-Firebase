@@ -2,37 +2,126 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(74, 87, 89);
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar .links {
+  text-align: center;
+  margin-right: 50px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid white;
+  padding-bottom: 2px;
+  margin: 10px;
+}
+
+.navbar .user {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-right: 50px;
+}
+
+.user p {
+  font-size: 15px;
+  margin-right: 10px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.user img {
+  font-size: 15px;
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#logout {
+  margin-left: 10px;
+  font-size: 15px;
+  color: white;
+  background-color: #4a5759;
+  border: none;
+  /* border-bottom: 3px solid white;
+  padding-bottom: 2px; */
+}
+
+input,
+textarea {
+  font-family: "Nunito", sans-serif;
+}
+
+.create-post {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+form {
+  margin-top: 50px;
+  padding: 30px 20px;
+  width: 320px;
+  border-radius: 7px;
+  background-color: white;
+  backdrop-filter: blur(5px);
+  background-color: #b0c4b1;
+  /* background-color: rgba(43, 0, 255, 0.588); */
+  overflow: hidden;
+}
+
+input,
+textarea {
+  padding: 8px 10px;
+  margin: 3px 8px 16px 8px;
+  background-color: #dedbd2;
+  border: 2px solid #4a5759;
+  border: 0px transparent;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  z-index: 1;
+}
+
+.submitForm:hover {
+  cursor: pointer;
+}
+
+.post {
+  width: 40%;
+  margin: 0 auto;
+  background-color: #6f8470; 
+  padding: 20px; 
+  border-radius: 10px;
+  color: white; 
+  text-align: center; 
+  margin-top: 10px;
+}
+
+
+.title h1, .body p, .footer {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.footer h4, .footer button, .footer p {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.footer button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
 }
