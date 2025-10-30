@@ -1,48 +1,51 @@
-# Getting Started with Create React App
+# Social Media App with Firebase  
+*A full-stack social platform built using React, TypeScript, and Firebase.*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Demo:** [Watch the Loom walkthrough](https://www.loom.com/share/1baa208565af46c5adc06bf5a429bbf0)  
+**Live Project:** [https://social-media-app-e5f82.web.app/](https://social-media-app-e5f82.web.app/)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Overview
+This project is a **social media web application** where users can sign up, create posts, and interact through a simple, clean interface.  
+It’s powered entirely by **Firebase**, handling authentication, storage, and real-time data updates.  
 
-### `npm start`
+I built this project to explore how real-time apps work and to strengthen my understanding of **React + TypeScript integration** and **Firebase services**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Inspiration
+This project aimed to **practice building a complete, deployable web app**, not just isolated components.  
+I wanted to understand how front-end and backend logic come together in real time using Firebase’s tools for auth, storage, and database management.  
+A social media platform felt like the perfect use case to apply these concepts since it involves user sessions, data relationships, and dynamic rendering, all key parts of full-stack development.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
+**Frontend:** React, TypeScript, Vite  
+**Backend / Database:** Firebase (Firestore, Authentication, Storage)  
+**Hosting:** Firebase Hosting  
+**State Management:** React Hooks  
+**Styling:** CSS / Tailwind (if used)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+- User authentication (sign up / login / logout)  
+- Create and delete posts in real time  
+- Store user data and images in Firebase  
+- Responsive layout across desktop and mobile  
+- Deployed live with Firebase Hosting  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## What I Learned
+- Setting up and integrating **Firebase Authentication** and **Firestore Database**  
+- Handling **real-time updates** and asynchronous operations in React  
+- Using **TypeScript** with React for cleaner, type-safe code  
+- Deploying production-ready web apps directly to Firebase  
+- Structuring React components and managing state efficiently  
 
-Hosting URL: https://social-media-app-e5f82.web.app
+This project helped me connect my understanding of front-end frameworks with cloud-based backend services, giving me practical experience with **real-time apps** and deployment pipelines.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
